@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gold Gum Database Viewer</title>
+    <link rel="stylesheet" href="admin_styles.css">
+
+    <script type="module" src="src/admin.js"></script>
+</head>
+<body>
+    <h1>Database Records</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Subject</th>
+                <th>Message</th>
+                <th>Submitted At</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>       
+    </table>
+    <button style="margin-left: 40%;margin-top: 20px;" id="exportBtn" class="export-button">Export to CSV</button>
+</body>
+</html>

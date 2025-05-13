@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ------------------------------------------Head------------------------------------------------ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Gum - Premium Guar Gum</title>
+    <link rel="preload" href="Images/Gold Gum.png" as="image">
+    <link rel="icon" href="Images/Gold Gum.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="src/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<!-- -----------------------------------------Body------------------------------------------------- -->
+
+<body>
+    <!-- -----------------------------------------Header (navbar)------------------------------------------------- -->
+    <header>
+        <img class="logo" alt="logo.png" src="Images/Gold Gum.png" height="auto" width="150px">
+        <nav style="font-weight: bold;">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#products">Products</a>
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+            <a class="nav-link" href="#certifications">Certifications</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+        <div class="whatsapp-container">
+            <img alt="whatsapp" src="Images/whatsapp.png" height="auto" width="40px">
+            <p>03225550100</p>
+        </div>
+    </header>
+
+    <!-- -----------------------------------------Sections------------------------------------------------- -->
+    <!-- -----------------------------------------Section 1 (Welcome)------------------------------------------------- -->
+    <section style="padding: 0px; position: relative;" id="home" class="text_section">
+
+        <div class="carousel-container">
+            <div class="welcome-overlay">
+                <p class="main_headings" style="font-size: 60px;color:white;">Welcome to Gold Gum</p>
+                <p style="font-size: 20px;">Your trusted partner in premium quality guar gum products.</p>
+            </div>
+    
+            <div class="carousel-track">
+                <div class="carousel-slide">
+                    <img src="Images/image1.png" alt="Product 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="Images/image2.png" alt="Product 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="Images/image3.jpg" alt="Product 3">
+                </div>
+            </div>
+    
+            <button class="carousel-btn prev-btn">&lt;</button>
+            <button class="carousel-btn next-btn">&gt;</button>
+            <div class="carousel-indicators"></div>
+        </div>
+    
+    </section>
+    
+
+    <!-- -----------------------------------------Section 2 (About Us)------------------------------------------------- -->
+    <section class="text_section about bg1" id="about">
+        <div class="stack">
+            <div class="card">
+                <div class="image"><img src="Images/ab.jpg" style="width: 100%;height: 100%;" alt="apple" width="100%"></div>
+            </div>
+        </div>
+        <div class="about_us_text">
+            <p class="main_headings">About Us</p>
+            <p>We are a premier Guar Gum manufacturer based in Pakistan, Renowned for producing high quality guar that
+                meet international standards. We specialize in a diverse range of products, including Guar Gum Powder,
+                Guar Splits, and Guar Meal, catering to various industries such as food, pharmaceuticals, textiles and
+                oil & gas. Our commitment to excellence is reflected in our adherence to stringent quality control
+                measures and certifications. With a dedicated team of professionals and a customer centric approach, We
+                strive to deliver innovative and sustainable guar solutions. Our global clientele trusts us for our
+                timely deliveries, Competitive pricing and unwavering commitment to quality. We are not just suppliers;
+                we are partners in your success, providing guar based solutions that empower industries worldwide.</p>
+        </div>
+    </section>
+
+    <!-- -----------------------------------------Section 3 (Products)------------------------------------------------- -->
+
+    <section class="text_section product bg2" id="products">
+        <div class="product_text">
+            <p class="main_headings">Our Products</p>
+            <p>At Gold Gum, we specialize in providing high quality guar tailored to meet the diverse needs of various
+                industries. Our commitment to excellence and adherence to international standards ensure that we deliver
+                optimal performance across multiple applications.</p>
+        </div>
+        <div class="products">
+            <div class="product_card">
+                <img class="product_image" src="Images/food.jpg">
+                <p class="product_name" onclick="toggleDesc(this)">Food</p>
+                <p class="product_desc" style="display: none;">Bananas are rich in potassium and great for energy.</p>
+            </div>
+            <div class="product_card">
+                <img class="product_image" src="Images/textile.jpg">
+                <p class="product_name" onclick="toggleDesc(this)">Textile</p>
+                <p class="product_desc" style="display: none;">Oranges are rich in Vitamin C and great for Skin.</p>
+            </div>
+            <div class="product_card">
+                <img class="product_image" src="Images/pharmasutical.jpg">
+                <p class="product_name" onclick="toggleDesc(this)">Pharmaceutical</p>
+                <p class="product_desc" style="display: none;">Bananas are rich in juice and great for cocktails.</p>
+            </div>
+            <div class="product_card">
+                <img class="product_image" src="Images/about_us.webp">
+                <p class="product_name" onclick="toggleDesc(this)">Oil and Gas</p>
+                <p class="product_desc" style="display: none;">Grapes can be used to make mehwa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------------------------------Section 4(Testimonials)------------------------------------------------- -->
+
+    <section class="text_section bg1" id="testimonials">
+        <p class="main_headings">Testimonials</p>
+        <center>
+            <div class="testimonial-card">
+                <img src="Images/c1.jpg" alt="John Doe" class="profile-pic">
+                <div class="testimonial-content">
+                    <p class="person-name">Hammad Ali</p>
+                    <p class="person-comment">"Gold Gum has consistently exceeded our expectations with their product
+                        quality."</p>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="Images/c2.jpg" alt="" class="profile-pic">
+                <div class="testimonial-content">
+                    <p class="person-name">John Doe</p>
+                    <p class="person-comment">"We've been sourcing guar gum for years, but Gold Gum truly stands out for
+                        their consistency and reliability. Highly recommended!"</p>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="Images/c3.jpg" alt="John Doe" class="profile-pic">
+                <div class="testimonial-content">
+                    <p class="person-name">Eddy Maxwell</p>
+                    <p class="person-comment">"Exceptional service and top-notch product quality—Gold Gum has been a
+                        game changer for our supply chain."</p>
+                </div>
+            </div>
+        </center>
+
+    </section>
+
+    <!-- -----------------------------------------Section 5 (Certifications)------------------------------------------------- -->
+
+    <section class="text_section bg2" id="certifications">
+        <p class="main_headings">Certifications</p>
+        <p>Our products are certified by leading international agencies, ensuring top-notch quality and compliance with
+            global standards.</p>
+        <div class="cert-grid">
+            <div class="cert-item">
+                <h3>ISO 9001:2015</h3>
+                <p> Demonstrates our dedication to maintaining a robust Quality Management System, ensuring consistent
+                    product quality and customer satisfaction.
+                </p>
+            </div>
+            <div class="cert-item">
+                <h3>ISO 22000:2018</h3>
+                <p>Affirms our commitment to food safety management, ensuring that our products are safe for consumption
+                    and meet international food safety standards.
+                </p>
+            </div>
+            <div class="cert-item">
+                <h3>FSSC 22000</h3>
+                <p>Recognized by the Global Food Safety Initiative, this certification underscores our adherence to
+                    comprehensive food safety management systems.
+                </p>
+            </div>
+            <div class="cert-item">
+                <h3>GMP Compliant</h3>
+                <p>Certifies that our manufacturing processes comply with international standards, ensuring product
+                    consistency and safety.
+                </p>
+            </div>
+            <div class="cert-item">
+                <h3>Halal Certified</h3>
+                <p>Confirms that our products meet the dietary requirements of Muslim consumers, adhering to Islamic
+                    dietary laws.
+                </p>
+            </div>
+            <div class="cert-item">
+                <h3>PSQCA Certified</h3>
+                <p>Validates our compliance with national quality standards, ensuring our products meet the regulatory
+                    requirements of Pakistan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------------------------------Section 6 (Contact)------------------------------------------------- -->
+
+    <section class="text_section bg1" id="contact">
+        <p class="main_headings">Contact Us</p>
+        <div class="contacts">
+            <p>📍Address:
+                <input style="width: 100%; padding: 10px; margin-bottom: 10px;" type="text" readonly
+                    value="270 H2 Main Blvd, Johar Town,Lahore,54782." id="addressInput">
+                <button class="con-bu" onclick="copyToClipboard('addressInput')">Copy</button>
+            </p>
+            <p>📞Phone:
+                <input style="width: 100%; padding: 10px; margin-bottom: 10px;" type="text" readonly
+                    value="03225550100" id="phoneInput">
+                <button class="con-bu" onclick="copyToClipboard('phoneInput')">Copy</button>
+            </p>
+            <p>✉️Email:
+                <input style="width: 100%; padding: 10px; margin-bottom: 10px;" type="text" readonly
+                    value="info@goldguminternational.com" id="emailInput">
+                <button class="con-bu" onclick="copyToClipboard('emailInput')">Copy</button>
+                <button class="con-bu" onclick="window.open('https://mail.google.com/mail/?view=cm&to=info@goldguminternational.com')"> Mail us</button>
+            </p>
+        </div>
+    </section>
+
+    <!-- -------------------------------------Section 7 (Form)------------------------------------------------- -->
+
+    <section class="contact-form text_section bg2">
+        <p class="main_headings">Get in Touch</p>
+        <form class="formA">
+            <input class="input_field" type="text" name="fullname" placeholder="Full Name" required>
+            <input class="input_field" type="text" name="address" placeholder="Address" required><br>
+            <input class="input_field" type="email" name="email" placeholder="Email" required>
+            <input class="input_field" type="text" name="subject" placeholder="Your Subject" required><br>
+            <textarea style="width: 450px;height: 100px;" class="input_field" name="message" placeholder="Your Message"
+                rows="5" required></textarea><br>
+            <button class="sub_button" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- -----------------------------------------Footer------------------------------------------------- -->
+
+    <footer style="min-height: 0px;" class="text_section">
+        <p style="margin: 12px 0px 0px;padding: 10px;">&copy; 2025 <span style="color: gold;">Gold Gum</span>. All
+            rights reserved.</p>
+    </footer>
+
+    <script type="module" src="src/client.js"></script>
+</body>
+
+</html>
