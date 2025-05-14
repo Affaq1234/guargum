@@ -290,15 +290,14 @@ footer {
 .products {
     display: flex;
     padding: 2px;
-    gap: 5px;
+    gap: 25px;
     flex-wrap: wrap;
     row-gap: 2px;
 }
 
 .product_card {
-    padding: 7px;
     display: inline;
-    max-width: 190px;
+    max-width: 152px;
 }
 
 .product_text {
@@ -309,19 +308,19 @@ footer {
 .product_name {
     position: relative;
     top: -30px;
-    left: -10px;
+    left: -5px;
     font-weight: bold;
     color: white;
     background-color: var(--green-color);
     display: inline-block;
-    width: 150px;
+    width: 125px;
     padding: 5px;
     cursor: pointer;
 }
 
 .product_image {
-    height: 250px;
-    width: 190px;
+    height: 200px;
+    width: 152px;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
