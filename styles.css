@@ -348,7 +348,7 @@ footer {
 }
 
 .input_field {
-    border: 2px solid transparent;
+    border: 2px solid lightgrey;
     width: 15em;
     height: 2.5em;
     margin: 10px;
@@ -362,8 +362,8 @@ footer {
 
 .input_field:hover,
 .input_field:focus {
-    border: 2px solid #4A9DEC;
-    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    border: 2px solid var(--green-color);
+    box-shadow: 0px 0px 0px 7px rgb(16,125,71,20%);
     background-color: white;
 }
 

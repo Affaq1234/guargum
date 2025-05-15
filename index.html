@@ -8,6 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gold Gum - Premium Guar Gum</title>
     <link rel="preload" href="Images/Gold Gum.png" as="image">
+    <link rel="preload" as="image" href="/images/image1.png" type="image/png">
+    <link rel="preload" as="image" href="/images/image2.png" type="image/png">
+    <link rel="preload" as="image" href="/images/image3.jpg" type="image/jpg">
+    <link rel="preload" as="image" href="/images/gtaph.jpg" type="image/jpg">
+    <link rel="preload" as="image" href="/images/1.png" type="image/jpg">
     <link rel="icon" href="Images/Gold Gum.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
     <script defer src="src/script.js"></script>
@@ -45,7 +50,7 @@
                 <p class="main_headings" style="font-size: 60px;color:white;">Welcome to Gold Gum</p>
                 <p style="font-size: 20px;">Your trusted partner in premium quality guar gum products.</p>
             </div>
-    
+
             <div class="carousel-track">
                 <div class="carousel-slide">
                     <img src="Images/image1.png" alt="Product 1">
@@ -57,20 +62,21 @@
                     <img src="Images/image3.jpg" alt="Product 3">
                 </div>
             </div>
-    
+
             <button class="carousel-btn prev-btn">&lt;</button>
             <button class="carousel-btn next-btn">&gt;</button>
             <div class="carousel-indicators"></div>
         </div>
-    
+
     </section>
-    
+
 
     <!-- -----------------------------------------Section 2 (About Us)------------------------------------------------- -->
     <section class="text_section about bg1" id="about">
         <div class="stack">
             <div class="card">
-                <div class="image"><img src="Images/ab.jpg" style="width: 100%;height: 100%;" alt="apple" width="100%"></div>
+                <div class="image"><img src="Images/ab.jpg" style="width: 100%;height: 100%;" alt="apple" width="100%">
+                </div>
             </div>
         </div>
         <div class="about_us_text">
@@ -206,22 +212,23 @@
 
     <section class="text_section bg1" id="contact">
         <p class="main_headings">Contact Us</p>
-        <div class="contacts">
-            <p>📍Address:
-                <input style="width: 100%; padding: 10px; margin-bottom: 10px;" type="text" readonly
+        <div class="contacts" style="background-color: rgb(238, 235, 235);">            <p>📍Address:
+                <input class="input_field" style="width: 100%; margin-bottom: 10px;" type="text" readonly
                     value="270 H2 Main Blvd, Johar Town,Lahore,54782." id="addressInput">
                 <button class="con-bu" onclick="copyToClipboard('addressInput')">Copy</button>
             </p>
             <p>📞Phone:
-                <input style="width: 100%; padding: 10px; margin-bottom: 10px;" type="text" readonly
-                    value="03225550100" id="phoneInput">
+                <input class="input_field" style="width: 100%; margin-bottom: 10px;" type="text" readonly value="03225550100"
+                    id="phoneInput">
                 <button class="con-bu" onclick="copyToClipboard('phoneInput')">Copy</button>
             </p>
             <p>✉️Email:
-                <input style="width: 100%; padding: 10px; margin-bottom: 10px;" type="text" readonly
+                <input class="input_field" style="width: 100%; margin-bottom: 10px;" type="text" readonly
                     value="info@goldguminternational.com" id="emailInput">
                 <button class="con-bu" onclick="copyToClipboard('emailInput')">Copy</button>
-                <button class="con-bu" onclick="window.open('https://mail.google.com/mail/?view=cm&to=info@goldguminternational.com')"> Mail us</button>
+                <button class="con-bu"
+                    onclick="window.open('https://mail.google.com/mail/?view=cm&to=info@goldguminternational.com')">
+                    Mail us</button>
             </p>
         </div>
     </section>
